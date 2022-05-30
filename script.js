@@ -13,9 +13,6 @@ document.querySelector("form").addEventListener("submit", weightConverter);
 
 function weightConverter(search) {
     search.preventDefault();
-    // console.log(search.target.elements.search);
-    // console.log(document.querySelector("input[id=search]").value);
-    // let result = document.getElementById("demo").innerHTML = search.target.elements.search.value;
     let result = document.querySelector("input[id=search]").value;
 
     document.getElementById("pounds").innerHTML=result*2.2046;
